@@ -1,6 +1,6 @@
 package pvp;
 
-
+//Aca se crea la clase Personaje a la cual se le asignaran los respectivos atributos necesarios.
 public class Personaje {
     private String nombre;
     private int ataque;
@@ -8,6 +8,7 @@ public class Personaje {
     private int defensa;
     private double ta;
     
+    //Este seria un metodo constructor el cual sirve para agregar más orden al programa construyendo datos asignados a los atributos
     public Personaje(){
         
     String nombre="Computadora";
@@ -16,6 +17,7 @@ public class Personaje {
     int defensa=10;
     double ta=0.9;
     }
+    //A continuacion se realiza una encapsulacion de metodos, esto es fundamental tanto para el orden como para el funcionamiento correcto del programa
     public String getNombre()
     {
         return this.nombre;
@@ -61,6 +63,7 @@ public class Personaje {
         this.ta=_ta;
     }
     
+    //A continuacion se crean los respectivos metodos de la clase en este caso el metodo "Atacado"
     public void atacado(int _ataque){
         int danho =_ataque-this.defensa;
         int vidaRestante =this.salud;
@@ -76,7 +79,7 @@ public class Personaje {
         
     }
     
-    
+     //A continuacion se crean los respectivos metodos de la clase en este caso el metodo "Esquivar"
     public void esquivar(){
     System.out.println(this.nombre+" logro esquivar el golpe");
     }
