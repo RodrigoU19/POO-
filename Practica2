@@ -11,7 +11,7 @@ public class Personaje {
     //Este seria un metodo constructor el cual sirve para agregar más orden al programa construyendo datos asignados a los atributos
     public Personaje(){
         
-    String nombre="Computadora";
+    String nombre="Peleador1";
     int ataque=40;
     int salud=300;
     int defensa=10;
