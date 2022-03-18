@@ -1,11 +1,13 @@
 package pvp;
 
+
 public class Personaje {
     private String nombre;
     private int salud;
     private int ataque;
     private int defensa;
     private double ta;
+    private String tipoA;
  
     
     //Metodo Constructor
